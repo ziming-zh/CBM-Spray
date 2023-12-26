@@ -1,0 +1,291 @@
+
+<JobSequence>
+	<JobItem Index="0" >
+		<SourceIndex>-1</SourceIndex>
+		<Job Identifier="MultiSetProcessing" >
+			<Enabled>true</Enabled>
+			<Direction>Horizontal</Direction>
+			<BufferRange>
+				<FullRange>false</FullRange>
+				<StartIndex>0</StartIndex>
+				<EndIndex>19</EndIndex>
+				<Increment>1</Increment>
+			</BufferRange>
+			<SubSetRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</SubSetRange>
+			<StoreMode>0</StoreMode>
+			<StoreName>Frame0</StoreName>
+			<SetOp Identifier="CL:1:BoExtractFrame:-1" >
+				<par id="INT" name="BoExtractFrame_Index" >
+					<value>0</value>
+				</par>
+			</SetOp>
+		</Job>
+	</JobItem>
+	<JobItem Index="1" >
+		<SourceIndex>0</SourceIndex>
+		<Job Identifier="MultiSetProcessing" >
+			<Enabled>true</Enabled>
+			<Direction>Horizontal</Direction>
+			<BufferRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</BufferRange>
+			<SubSetRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</SubSetRange>
+			<StoreMode>0</StoreMode>
+			<StoreName>Correction</StoreName>
+			<SetOp Identifier="CL:1:BoDistortion:4" >
+				<par id="INT" name="BoDistortionMirrorMode" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionRotateMode" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionResizeMode" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionRotateCenterMode" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionExpandX" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionExpandY" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionCompressX" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionCompressY" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionRotCenterX" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionRotCenterY" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionRotAngle" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionRotFit" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionRotScale" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionIcCamera" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionIcCameraInv" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionIcZpos" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionIcZposInv" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionIcDouble" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionStretchX" >
+					<value>0.5</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionStretchY" >
+					<value>0.5</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsVx" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsVy" >
+					<value>1</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsVz" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsOx" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsOy" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsOz" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsSliceSeparation" >
+					<value>0.5</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsSliceSeparationPix" >
+					<value>3.4622</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsFrameSeparation" >
+					<value>1</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsFrameSeparationPix" >
+					<value>6.92439</value>
+				</par>
+				<par id="INT" name="BoDistortionVsFrameSeparationMode" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionVsSliceSeparationMode" >
+					<value>1</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsTLow" >
+					<value>200</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsTHigh" >
+					<value>1000</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsCoMx" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsCoMy" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoDistortionVsCoMz" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionVsFrameStart" >
+					<value>14</value>
+				</par>
+				<par id="INT" name="BoDistortionVsFrameEnd" >
+					<value>24</value>
+				</par>
+				<par id="INT" name="BoDistortionVsFrameInc" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoDistortionVsCoMEnable" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoDistortionDefType" >
+					<value>0</value>
+				</par>
+				<par id="STRING" name="BoDistortionDefFile" >
+					<value/>
+				</par>
+				<par id="STRING" name="BoDistortionDefSet" >
+					<value/>
+				</par>
+				<par id="INT" name="BoDistortionDefBuffer" >
+					<value>1</value>
+				</par>
+			</SetOp>
+		</Job>
+	</JobItem>
+	<JobItem Index="2" >
+		<SourceIndex>1</SourceIndex>
+		<Job Identifier="MultiSetProcessing" >
+			<Enabled>true</Enabled>
+			<Direction>Horizontal</Direction>
+			<BufferRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</BufferRange>
+			<SubSetRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</SubSetRange>
+			<StoreMode>4</StoreMode>
+			<StoreName>Spray</StoreName>
+			<SetOp Identifier="CL:1:BoF_FloatToWord:-1" />
+		</Job>
+	</JobItem>
+	<JobItem Index="3" >
+		<SourceIndex>2</SourceIndex>
+		<Job Identifier="MultiSetProcessing" >
+			<Enabled>true</Enabled>
+			<Direction>Vertical</Direction>
+			<BufferRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</BufferRange>
+			<SubSetRange>
+				<FullRange>true</FullRange>
+				<StartIndex>-1</StartIndex>
+				<EndIndex>-1</EndIndex>
+				<Increment>-1</Increment>
+			</SubSetRange>
+			<StoreMode>3</StoreMode>
+			<StoreName>Avg</StoreName>
+			<SetOp Identifier="CL:1:BoSumming:0" >
+				<par id="INT" name="BoSummingSum" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoSummingAvg" >
+					<value>1</value>
+				</par>
+				<par id="INT" name="BoSummingRms" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoSummingMin" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoSummingMax" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoSummingDiff" >
+					<value>0</value>
+				</par>
+				<par id="STRING" name="BoSummingDevAvailable" >
+					<value>Camera 1: Exposure time&bs;nCamera 2: Exposure time&bs;nRecording: Recording rate</value>
+				</par>
+				<par id="STRING" name="BoSummingDevAvailableSel" >
+					<value/>
+				</par>
+				<par id="STRING" name="BoSummingDevSelected" >
+					<value/>
+				</par>
+				<par id="STRING" name="BoSummingDevSelectedSel" >
+					<value/>
+				</par>
+				<par id="DOUBLE" name="BoSummingPdfThreshold" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoSummingPdfNormalize" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoSummingPdf2Threshold" >
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoSummingPdf2Threshold2" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoSummingPdf2Normalize" >
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoHistogramRect" >
+					<value>0</value>
+					<value>0</value>
+					<value>0</value>
+					<value>0</value>
+					<value>0</value>
+				</par>
+				<par id="DOUBLE" name="BoHistogramRange" >
+					<value>0</value>
+					<value>0</value>
+				</par>
+				<par id="INT" name="BoHistogramSteps" >
+					<value>2000</value>
+				</par>
+			</SetOp>
+		</Job>
+	</JobItem>
+</JobSequence>

@@ -1,0 +1,16 @@
+// set file <E:/MyProjects/LIF-PIV/5MPa_Octane_100kPa_30C/Spray.set> created by DaVis
+
+#GROUP Sets
+SetType = 4194560;
+SetGroups = "";
+SetTime = "Tue Apr 17 01:50:51 18";
+SetComments = "";
+SetStart = 1;
+SetInc = 1;
+SetSourceSet = "";
+SetViewCallback = "";
+SetLoadCallback = "";
+SetIdentifier = "RecordingLoop";
+SetSubSetStart = 0;
+SetSubSetInc = 1;
+SetDirection = "Horizontal";
