@@ -5,7 +5,7 @@ This work proposes an innovative CBM approach to investigate the spatiotemporal 
 
 | Items                       | Specifications                                               |
 | --------------------------- | ------------------------------------------------------------ |
-| Injector hole type          | 1-hole, step hole, L = 300 \mu m, D = 200 \mu m (L/D = 1.5) |
+| Injector hole type          | 1-hole, step hole, L = 300 μm, D = 200 μm (L/D = 1.5) |
 | Fuel type                   | n-hexane (C6H14),  iso-octane (C8H18), n-decane (C10H22)     |
 | Injection pressure, *P*inj  | 5 MPa                                                        |
 | Fuel temperature, *T*fuel   | 30℃ ~ 90℃                                                    |
